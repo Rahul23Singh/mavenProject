@@ -1,0 +1,5 @@
+com\mavenProject\utilities\Reporting.class
+com\mavenProject\pageObject\LoginPage.class
+com\mavenProject\testCases\BaseClass.class
+com\mavenProject\utilities\ReadConfig.class
+com\mavenProject\testCases\TC_LoginTest_001.class

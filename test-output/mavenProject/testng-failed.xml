@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [mavenProject]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Test1">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.mavenProject.testCases.TC_LoginTest_001"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Failed suite [mavenProject] -->
