@@ -2,22 +2,22 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28" started-at="2019-05-06T06:47:23Z" finished-at="2019-05-06T06:47:23Z">
+  <suite name="Default suite" duration-ms="32" started-at="2019-05-06T18:17:38Z" finished-at="2019-05-06T18:17:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28" started-at="2019-05-06T06:47:23Z" finished-at="2019-05-06T06:47:23Z">
+    <test name="Default test" duration-ms="32" started-at="2019-05-06T18:17:38Z" finished-at="2019-05-06T18:17:38Z">
       <class name="com.mavenProject.testCases.TC_LoginTest_001">
-        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.mavenProject.testCases.TC_LoginTest_001@58ceff1]" name="setup" is-config="true" duration-ms="0" started-at="2019-05-06T12:17:23Z" finished-at="2019-05-06T12:17:23Z">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.mavenProject.testCases.TC_LoginTest_001@58ceff1]" name="setup" is-config="true" duration-ms="0" started-at="2019-05-06T23:47:38Z" finished-at="2019-05-06T23:47:38Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by @Configuration on method setup but has not been marked @Optional or defined
-in C:\Users\acer\AppData\Local\Temp\testng-eclipse-1891127980\testng-customsuite.xml]]>
+in C:\Users\acer\AppData\Local\Temp\testng-eclipse-981567762\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by @Configuration on method setup but has not been marked @Optional or defined
-in C:\Users\acer\AppData\Local\Temp\testng-eclipse-1891127980\testng-customsuite.xml
+in C:\Users\acer\AppData\Local\Temp\testng-eclipse-981567762\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
@@ -45,11 +45,11 @@ in C:\Users\acer\AppData\Local\Temp\testng-eclipse-1891127980\testng-customsuite
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="loginTest()[pri:0, instance:com.mavenProject.testCases.TC_LoginTest_001@58ceff1]" name="loginTest" duration-ms="3" started-at="2019-05-06T12:17:23Z" finished-at="2019-05-06T12:17:23Z">
+        <test-method status="SKIP" signature="loginTest()[pri:0, instance:com.mavenProject.testCases.TC_LoginTest_001@58ceff1]" name="loginTest" duration-ms="4" started-at="2019-05-06T23:47:38Z" finished-at="2019-05-06T23:47:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.mavenProject.testCases.TC_LoginTest_001@58ceff1]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-06T12:17:23Z" finished-at="2019-05-06T12:17:23Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.mavenProject.testCases.TC_LoginTest_001@58ceff1]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-06T23:47:38Z" finished-at="2019-05-06T23:47:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

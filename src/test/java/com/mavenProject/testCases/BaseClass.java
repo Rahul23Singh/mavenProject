@@ -19,13 +19,11 @@ public class BaseClass {
 	public String baseURL= readconfig.getBaseURL();
 	public String username=readconfig.getUsername();
 	public String password=readconfig.getPassword();
-	
-	
 	public static WebDriver driver;
 	public static Logger Logger;
 	
-	@BeforeClass
 	@Parameters("browser")
+	@BeforeClass
 	public void setup(String str){
 		if(str.equalsIgnoreCase("chrome")){
 		System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());

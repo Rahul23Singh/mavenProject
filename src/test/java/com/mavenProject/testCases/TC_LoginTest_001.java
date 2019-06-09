@@ -8,9 +8,8 @@ import com.mavenProject.pageObject.LoginPage;
 
 public class TC_LoginTest_001 extends BaseClass {
 	@Test
-	public void loginTest(){
-		
-		
+	public void loginTest() {
+
 		Logger.info("URL is opened");
 		LoginPage lpg = new LoginPage(driver);
 		lpg.setUserName(username);
@@ -21,19 +20,12 @@ public class TC_LoginTest_001 extends BaseClass {
 		Logger.info("Log In clicked");
 		String title = driver.getTitle();
 		System.out.println(title);
-	if(driver.getTitle().equals("Facebook")==true)
-		{
+		if (driver.getTitle().equals("Facebook") == true) {
 			Assert.assertTrue(true);
 			Logger.info("Title verified");
-		}
-		else
-		{	
-		Assert.assertFalse(true);
-		Logger.info("Title failed");
-		}
+		} else {
+			Assert.assertFalse(true);
+			Logger.info("Title failed");
 		}
 	}
-	
-	
-	
-
+}
